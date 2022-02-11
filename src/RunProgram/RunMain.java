@@ -70,7 +70,6 @@ public class RunMain {
                 case 2 : {
                     System.out.println("-------Enter user Client------ ");
                     Account accountLoginClient = accountClient.checkLoginOfClient();
-                    System.out.println(accountLoginClient);
                     functionClient(accountLoginClient);
                     break;
                 }
